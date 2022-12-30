@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    text-align: center;
+    padding: unset;
+    margin: unset;
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+#container {
+    margin: 100px 0;
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 75%;
+    margin: auto;
+}
+
+.color {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.clicked {
+    visibility: hidden;
+}
+
+.new-game {
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.option {
+    border: none;
+    background-color: inherit;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.active {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#count {
+    font-size: 20px;
+}
